@@ -14,11 +14,18 @@
   },
   "author": "Mike Judge",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/mikelovesrobots/mcp-typescript-server-examples/issues"
   },
   "homepage": "https://github.com/mikelovesrobots/mcp-typescript-server-examples#readme",
   "devDependencies": {
+    "@types/express": "^5.0.5",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.21.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
   }
 }
