@@ -2,8 +2,10 @@
   "name": "mcp-typescript-server-examples",
   "version": "1.0.0",
   "description": "Just running a sample mcp server",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
+    "start": "node src/index.ts",
+    "typecheck": "tsc --noEmit src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
