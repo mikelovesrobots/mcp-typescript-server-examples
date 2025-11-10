@@ -1,0 +1,22 @@
+{
+  "name": "mcp-typescript-server-examples",
+  "version": "1.0.0",
+  "description": "Just running a sample mcp server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikelovesrobots/mcp-typescript-server-examples.git"
+  },
+  "author": "Mike Judge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikelovesrobots/mcp-typescript-server-examples/issues"
+  },
+  "homepage": "https://github.com/mikelovesrobots/mcp-typescript-server-examples#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
